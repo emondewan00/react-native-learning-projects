@@ -1,12 +1,12 @@
 import React from 'react';
 import {SafeAreaView, ScrollView, StyleSheet} from 'react-native';
-import Page from './components/first project/Index';
+import PasswordGenerator from './components/passwordGenerator/Index';
 
 const App = () => {
   return (
     <SafeAreaView>
       <ScrollView style={styles.container}>
-        <Page />
+        <PasswordGenerator />
       </ScrollView>
     </SafeAreaView>
   );
